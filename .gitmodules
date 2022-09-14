@@ -1,0 +1,4 @@
+[submodule "Aurora-LINK"]
+	url  = https://gitee.com/ausx/aurora-link-for-sc
+	path = Aurora-LINK
+
