@@ -9,7 +9,7 @@ class AuEx_communication {
         this.runtime = runtime
         this._formatMessage = runtime.getFormatMessage({
             'zh-cn': {
-                'AusCOM.extensionName': 'AUSの通讯模块',
+                'AusCOM.extensionName': 'AUSの通讯V1.0canary',
                 'AusCOM.tit1': 'sock通讯',
                 'AusCOM.tit2': '数据处理',
                 'AusCOM.tit3': 'JSON',
@@ -690,7 +690,7 @@ class AuEx_communication {
         return false
     }
     help() {
-        return "http访问出现fail to load XX可能是域名/ip不存在，也有可能是出现跨域问题，可以联系本站站住修改HTTP协议头或者自行修改浏览器跨域设置。如果ws无法发送数据，请F12打开开发者工具查看是否报错，如果报错则是无法连接，目前浏览器还不支持侦察此类报错。更多帮助请进入 https://gitee.com/ausx/DDEV_scNET"
+        return "http访问出现fail to load XX可能是域名/ip不存在，也有可能是出现跨域问题，可以联系本站站住修改HTTP协议头或者自行修改浏览器跨域设置。如果ws无法发送数据，请F12打开开发者工具查看是否报错，如果报错则是无法连接，目前浏览器还不支持侦察此类报错。更多帮助请进入 https://gitee.com/ausx/scCOM"
     }
     RC4_coding(args) {
         var key = ''
